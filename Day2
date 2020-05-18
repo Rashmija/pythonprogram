@@ -54,5 +54,37 @@ print("*")
 else
 print(" ")
 
+print("/n")
+
+#pattern
+#upperhalf
+n=5
+x=5
+y=5
+for i in range(1,n+1):
+for j in range(1,n*2+1):
+if(j>x && j<y):
+print(" ")
+else:
+print("*")
+
+x-=1
+y+=1
+#lowerhalf
+a=1
+b=n*2
+for i in range(1,n+1):
+for j in range(1,n*2+1):
+if(j>a && j<b):
+print(" ")
+else:
+print("*")
+
+a+=1
+b-=1
+
+
+
+
 
 
