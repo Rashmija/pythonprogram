@@ -84,7 +84,20 @@ a+=1
 b-=1
 
 
-
+#diamond
+#upper
+for i in range(1,4):
+for j in range(3,0):
+  print(j,"*")
+ print(j)
+ print("/n")
+ #lower
+ 
+for i in range(1,4):
+for j in range(1,4):
+  print(j,"*")
+ print(j)
+ print("/n")
 
 
 
