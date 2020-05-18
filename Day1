@@ -1,1 +1,37 @@
 
+name=input("enter name");
+age=input("enter age");
+gender=input("enter gender");
+college=input("enter college");
+branch=input("enre your branch");
+print("name\n",name);
+print("age\n",age);
+print("gender\n",gender);
+print("college\n",college);
+print("branch",branch);
+
+n=input("enter number whose square root is to be found");
+print("square root is",n**(0.5));
+
+a=input("enter first number");
+b=input("enter second number");
+a=a+b;
+b=a-b;
+a=a-b;
+print("swapped numbers are",a,b);
+
+cp=input("enter cost price");
+sp=input("enter selling price");
+p=sp-cp;
+newp=p+0.05p;
+newsp=newp+cp;
+print("new selling price is",newsp);
+
+n1=input("runs of 1st");
+n2=input("runs of second");
+n3=input("runs ofr 3rd");
+print("strike rate of 1st\n",n1/60*100);
+print("strike rate of 2nd\n",n2/60*100);
+print("strike rate of 3rd\n",n3/60*100);
+print(""runs scored with same strike rate",n1*2);
+print("maximum sixes",51);
